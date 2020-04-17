@@ -1,0 +1,5 @@
+stubs/__files/**/*
+stubs/mappings/**/*
+!stubs/__files/healthcheck.json
+!stubs/mappings/healthcheck.json
+!stubs/mappings/options.json

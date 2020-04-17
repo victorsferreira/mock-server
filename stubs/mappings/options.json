@@ -1,0 +1,17 @@
+{
+  "request": {
+    "urlPathPattern": ".*",
+    "method": "OPTIONS"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Headers": "x-access-token,content-type,authorization",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Expose-Headers": "x-access-token",
+      "Content-Type": "text/html; charset=utf-8",
+      "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE"
+    },
+    "body": "GET, POST, PUT"
+  }
+}
